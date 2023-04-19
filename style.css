@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  background: #c0c0d3;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 8%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box-1 {
+  position: absolute;
+  bottom: 0;
+  left: 240px;
+  width: 700px;
+}
+
+.box-2 {
+  background-color: #fff;
+  margin-top: 10px;
+  width: 400px;
+  height: 900px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  gap: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #343a40;
+  text-align: center;
+}
+
+.mensagem {
+  font-weight: 400;
+  font-size: 12px;
+
+  color: #495057;
+}
+
+.atencao {
+  margin-bottom: 20px;
+}
+
+.texto {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.img_menino {
+  margin-bottom: 30px;
+}
+
+form .digitartexto {
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  left: 240px;
+  top: 170px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.criptografar {
+  background: #0a3871;
+  color: #fff;
+}
+
+.descriptografar {
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  margin-left: 30px;
+}
+
+.box-2 .textodescriptogrado {
+  width: 300px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0a3871;
+
+  margin-bottom: 70px;
+}
